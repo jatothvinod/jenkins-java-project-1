@@ -11,7 +11,7 @@ pipeline {
                 git url: 'https://github.com/devopsbyraham/jenkins-java-project.git'
             }
         }
-        stage('build') {
+        stage('Build') {
             steps {
                 sh 'mvn compile'
             }
